@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h1 class="head-title"> Dojonary </h1>
+            <form id="form"> 
+                <input type="search" id="query" name="q" placeholder="Search..." >
+            </form>
+            <button class="btn" onclick="change(this)"> Login </button>
+        </div>
+    </div>
+    <div class="container-flex">
+        <div class="left">
+            <div class="container1">
+                <div class="ninja_container">
+                    <h2 class="ninja1"> ninja </h2>
+                    <h3 class="noun"> noun </h3>
+                    <h3 class="plural"> Plural: ninjas</h3>
+                    <button class="btn2" onclick="likes(this)"> 13 likes </button>
+                </div>
+                <div class="definition">
+                    <p> A practitioner skilled in the<span> Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="ninja_container">
+                    <h2 class="ninja1"> ninja </h2>
+                    <h3 class="noun"> noun </h3>
+                    <h3 class="plural"> Plural: ninjas</h3>
+                    <button class="btn2" onclick="likes(this)"> 37 likes </button>
+                </div>
+                <div class="definition">
+                    <p> A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="container3">
+                <h2 class="dojonary"> Dojonary is defined by YOU</h2>
+                <button class="btn3" onclick="hide(this)"> Add Definition </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
